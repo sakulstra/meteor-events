@@ -1,0 +1,9 @@
+<template name="eventInsertForm">
+    {{#autoForm collection="Events" id="createEventForm" type="insert"}}
+        {{> afQuickField name='title'}}
+        <div class="form-group">
+            <button type="submit" class="btn">{{_ "add"}}</button>
+            <button type="reset" class="btn">{{_ "reset"}}</button>
+        </div>
+    {{/autoForm}}
+</template>
